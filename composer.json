@@ -1,0 +1,45 @@
+{
+  "name": "forutan/ccaptcha",
+  "version": "1.0.0",
+  "description": "Forutan CCaptcha is a lightweight, customizable Laravel library for secure, human-verification circle-based captchas. Easily integrate with any Laravel project to protect forms, logins, and sensitive actions with a visually interactive captcha system.",
+  "type": "library",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "Forutan\\CCaptcha\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Forutan\\CCaptcha\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Yaser (Forutan) Vaziri",
+      "email": "forutan.vaziri@gmail.com"
+    }
+  ],
+  "funding": [
+    {
+      "type": "custom",
+      "url": "https://yaservaziri.github.io/ForutanCCaptcha/donate.html"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1",
+    "illuminate/support": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/routing": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/http": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/database": "^9.0|^10.0|^11.0|^12.0",
+    "illuminate/console": "^9.0|^10.0|^11.0|^12.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Forutan\\CCaptcha\\Providers\\CCaptchaServiceProvider"
+      ]
+    }
+  }
+}
